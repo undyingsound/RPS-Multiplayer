@@ -1,0 +1,108 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="assets/js/game.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand mx-auto" href="#">(the)Rock - - Paper(boy) - - Scissor(hands)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">High Scores</a>
+                            <a class="dropdown-item" href="https://undyingsound.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="playerCount">
+        <button type="button" class="btn btn-primary btn-lg">Human vs. Computer</button>
+        <button type="button" class="btn btn-secondary btn-lg">Human vs. Human</button>
+    </div>
+    <div class="playerInput">
+
+        <div class="playerOne">
+            <div class="input-group mb-3 w-25">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Player #1 Name</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+        </div>
+        <div class="playerTwo">
+            <div class="input-group mb-3 w-25">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Player #2 Name</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+        </div>
+        <button type="button" class="btn btn-outline-success">Start Game</button>
+
+    </div>
+
+    <div class="scoreBoard">
+        <div id="user-label" class="badge">Player 1</div>
+        <div id="user2-label" class="badge">Player 2</div>
+        <span id="user-score">0</span>:<span id="user2-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper Covers Rock!</p>
+    </div>
+
+    <div class="choices row mx-auto">
+        <div class="choice col-4" id="r">
+            <img src="assets/imgs/rock.jpg" alt="">
+        </div>
+        <div class="choice col-4" id="p">
+            <img src="assets/imgs/paper.png" alt="">
+        </div>
+        <div class="choice col-4" id="s">
+            <img src="assets/imgs/scissors.jpg" alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Choose Wisely.</p>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
