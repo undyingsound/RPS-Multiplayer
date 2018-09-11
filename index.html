@@ -18,7 +18,7 @@
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand mx-auto" href="#">(the)Rock - - Paper(boy) - - Scissor(hands)</span></a>
+                <h2><span>(the)Rock  -  Paper(boy)  -  Scissor(hands)</span></h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,7 @@
 
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">New Game</a>
                             <a class="dropdown-item" href="#">High Scores</a>
                             <a class="dropdown-item" href="https://undyingsound.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
 
@@ -40,6 +41,7 @@
             </div>
         </nav>
     </header>
+    <br>
 
     <div class="playerCount">
         <button type="button" class="btn btn-primary btn-lg">Human vs. Computer</button>
@@ -63,13 +65,13 @@
                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
             </div>
         </div>
-        <button type="button" class="btn btn-outline-success">Start Game</button>
+        <button type="button" class="btn btn-dark">Start Game</button>
 
     </div>
 
     <div class="scoreBoard">
-        <div id="user-label" class="badge">Player 1</div>
-        <div id="user2-label" class="badge">Player 2</div>
+        <div id="user-label" class="badgeL">Player 1</div>
+        <div id="user2-label" class="badgeR">Player 2</div>
         <span id="user-score">0</span>:<span id="user2-score">0</span>
     </div>
 
@@ -77,14 +79,14 @@
         <p>Paper Covers Rock!</p>
     </div>
 
-    <div class="choices row mx-auto">
-        <div class="choice col-4" id="r">
+    <div class="choices">
+        <div class="choice" id="r">
             <img src="assets/imgs/rock.jpg" alt="">
         </div>
-        <div class="choice col-4" id="p">
+        <div class="choice" id="p">
             <img src="assets/imgs/paper.png" alt="">
         </div>
-        <div class="choice col-4" id="s">
+        <div class="choice" id="s">
             <img src="assets/imgs/scissors.jpg" alt="">
         </div>
     </div>

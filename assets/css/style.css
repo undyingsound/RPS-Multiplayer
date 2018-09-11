@@ -1,5 +1,91 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+}
+
 body{
     background-color:lightgreen;
 
 }
 
+h2 > span{
+    display: block;
+    text-align: center;
+}
+
+.scoreBoard{
+    background: white;
+    border: 3px solid black;
+    font-size:100px;
+    margin:30px auto;
+    padding: 5px;
+    position:relative;
+    text-align: center;
+    width: 200px;
+
+}
+
+.badgeL{
+background:blue;
+color: white;
+font-size:20px;
+width:50%;
+}
+
+.badgeR{
+    background:Red;
+    color: white;
+    font-size:20px;
+    width:50%;
+    }
+
+#user-label{
+    position:absolute;
+    bottom:0;
+    left:0;
+
+}
+#user2-label{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.result{
+    
+    background:white;
+    font-size:50px;
+    color: black;
+    text-align: center;
+
+
+}
+
+
+.choices,
+.playerCount,
+.playerInput
+{
+    text-align: center;
+
+
+}
+
+.choice
+{
+display: inline-block;
+margin:20px 15px ;
+
+}
+
+#action-message{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
