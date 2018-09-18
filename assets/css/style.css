@@ -6,8 +6,9 @@ box-sizing: border-box;
 
 }
 
+
 body{
-    background-color:lightgreen;
+    background-color:lightslategray;
 
 }
 
@@ -16,7 +17,16 @@ h2 > span{
     text-align: center;
 }
 
+.textSelect{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
 .scoreBoard{
+    
     background: white;
     border: 3px solid black;
     font-size:100px;
@@ -65,9 +75,11 @@ width:50%;
 }
 
 
+
 .choices,
 .playerCount,
-.playerInput
+.playerInput,
+.playerInputHvc
 {
     text-align: center;
 
@@ -75,11 +87,16 @@ width:50%;
 }
 
 .choice
+
 {
+
 display: inline-block;
 margin:20px 15px ;
 
 }
+
+
+
 
 #action-message{
     
@@ -88,4 +105,21 @@ margin:20px 15px ;
     font-size: 20px;
 
 
+}
+
+.buttons{
+    display: none;
+    text-align: center;
+
+}
+
+footer {
+    position: absolute;
+    height:50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
 }

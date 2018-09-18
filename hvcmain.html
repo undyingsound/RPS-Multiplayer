@@ -48,19 +48,48 @@
         </nav>
     </header>
     <br>
-    <br>
-    <br>
-    <p class = "textSelect">Select who will be playing</p>
-    <div class="playerCount">
-        <a href="hvcmain.html"><button type="button" class="btn btn-primary btn-lg">Human vs. Computer</button></a>
-        <a href="main.html"><button type="button" class="btn btn-secondary btn-lg">Human vs. Human</button></a>
+
+   
+    <div class = "buttons">
+
+        <button type="button" class="btn btn-dark" id="resetBtn">New Game</button>
+        <button type="button" class="btn btn-dark" id="titleBtn">Back to Title Screen</button>
+        
+        
     </div>
-    <div class="playerInput">
+
+
+    <div class="scoreBoard">
+        <div id="user-label" class="badgeL">Player</div>
+        <div id="user2-label" class="badgeR">Computer</div>
+        <span id="user-score">0</span>:<span id="user2-score">0</span>
+    </div>
+
+    <div class="result">
+        <p id="winner"></p>
+    </div>
+
+    <div class="choices row">
+        <div class="choice col">
+            <img src="assets/imgs/rock.jpg" class = "btn" alt="" id ="r" >
+        </div>
+        <div class="choice col">
+            <img src="assets/imgs/paper.png" class = "btn" alt="" id ="p">
+        </div>
+        <div class="choice col">
+            <img src="assets/imgs/scissors.jpg" class = "btn" alt="" id ="s">
+        </div>
+    </div>
+<br>
+    <p id="action-message">Choose Wisely.</p>
 
 
 
 
-        <footer></footer>
+
+
+    <footer></footer>
+
 </body>
 
 </html>
